@@ -186,7 +186,7 @@ void Work(){
 }
 int main(){
     srand(time(NULL));
-	int T=100000;
+    int T=100000;
     for(int i=1;i<=T;i++){
         Init();
         Work();
